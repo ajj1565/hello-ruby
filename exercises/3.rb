@@ -15,3 +15,12 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+arrMyList = ["Meat","Cheese","Bread"]
+arrFriendList = ["Candy","Vegetables","Fruit","Bread"]
+arrCombinedList = arrMyList + arrFriendList
+
+arrSortedList = arrCombinedList.sort
+
+arrUniqueList = arrSortedList.uniq
+
+puts arrUniqueList
